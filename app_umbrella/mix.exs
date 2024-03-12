@@ -17,7 +17,7 @@ defmodule AppUmbrella.MixProject do
   # Run "mix help deps" for examples and options.
   defp deps do
     [
-      {:dep_a, ">= 0.0.0", repo: "acme"}
+      {:dep_b, ">= 0.0.0", repo: "acme"}
     ]
   end
 end
