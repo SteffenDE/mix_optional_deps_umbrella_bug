@@ -1,0 +1,4 @@
+%{
+  "dep_a": {:hex, :dep_a, "0.1.0", "633c24d6bd21900cf1e1a0964c9d1b29a5556444782faa103ca99bffd8e6bc92", [:mix], [], "acme", "9f0e2f7ecc97e3ab84e6d5fd7317bbe9266ef6404cff29b83889068c303b1dbe"},
+  "dep_b": {:hex, :dep_b, "0.1.0", "cb503ab1f180b5ca9b3a310643396fa5036e7411c904ed64a72e637002845209", [:mix], [{:dep_a, "~> 0.1", [hex: :dep_a, repo: "acme", optional: true]}], "acme", "a47761b8925770e2fd2b682caf82f3b4eed1a14c9bfd3252f73d2f3d4f2f22f1"},
+}
